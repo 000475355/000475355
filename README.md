@@ -1,4 +1,5 @@
 QUIZ MANAGEMENT :
+
 Section 1 - Project Description
 1.1 Project
 Quiz Application
@@ -36,21 +37,22 @@ Section 3 - System Architecture
 The system consists of a client-server architecture where the client is responsible for the user interface and the server manages the quiz logic and data.
 
 
-Section 6 - User Interface Design
-6.1 User Interface Design Overview
-The UI includes a topic selection screen, quiz question display, feedback for answers, and a final score display.
-6.2 User Interface Navigation Flow
-The navigation flow includes:
+Section 4 - User Interface Design
 
+4.1 User Interface Design Overview
+The UI includes a topic selection screen, quiz question display, feedback for answers, and a final score display.
+
+4.2 User Interface Navigation Flow
+The navigation flow includes:
 Topic Selection Screen → Quiz Question Screen → Final Score Screen
-6.3 Use Cases / User Function Description
+
+4.3 Use Cases / User Function Description
 Use Case 1: User selects a quiz topic.
 Use Case 2: User answers a series of 10 questions.
 Use Case 3: User receives feedback on each answer.
 Use Case 4: User views the final score.
-Section 7 - Testing 
-This section covers the strategies and practices for ensuring the quality and reliability of the software through various stages of testing and monitoring. It includes end-to-end testing, environment setups (Test, UAT, Prod), and Quality Assurance (QA) processes.
-7.1 Test Plan Creation:
+Section 5 - Testing 
+5.1 Test Plan Creation:
 Components of a Test Plan:
 
 - Objective: Validate the functionality and performance of the quiz application
@@ -59,7 +61,7 @@ Components of a Test Plan:
 - Schedule: Detail the timeline for testing activities.
 - Test Cases: Define individual tests with steps, expected results, and actual results.
 
-Section 8 - Monitoring
+Section 6 - Monitoring
 Monitoring is a critical component of maintaining the health, performance, and security of an application. It involves collecting, analyzing, and acting upon various metrics and logs to ensure the system operates smoothly and meets user expectations. In this section, define how and where it would be monitored, thresholds etc. 
 Key metrics to monitor include:
 - Performance Metrics: Response times, throughput, server load, CPU usage, memory usage.
@@ -68,7 +70,7 @@ Key metrics to monitor include:
 - User Metrics: Active users, user sessions, retention rates.
 
 
-Section 9 - Other Interfaces
-9.1 Interface X
+Section 7 - Other Interfaces
+7.1 Interface X
 Interaction with external systems or APIs if applicable.
 
